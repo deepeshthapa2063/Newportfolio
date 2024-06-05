@@ -4,7 +4,10 @@
         <style>
             .uniqe{background-color:yellow;
                 border: none;
-                border-radius: 25px
+                border-radius:25px;
+                height: 50px;
+                width: 150px;
+               
              }
              .pinnacle{
                 color: rgb(106, 42, 165);
@@ -15,13 +18,17 @@
              .milestone{
                 background-color:#FF4C60;
                 border:none;
-                border-radius: 25px;
+                border-radius: 50px;
+                height: 50px;
+                width: 150px;
+                color:#F8F9E1;
              }
         </style>
     </head>
     <body>
+     <div>
         <nav>
-            <ul>
+            <ul style="display: grid; grid-template-columns: auto auto auto auto;">
                 <li>
                     <a href="#">home</a>
                 </li>
@@ -34,22 +41,22 @@
                     <a href="./views/contact.html">Contact</a>
                 </li>
             </ul>
-            <div>
-                Logo
-            </div>
-            <div>
-                <button class="uniqe">Download Resume</button>
+            <div style="display:grid; grid-template-columns: auto auto;">
+               <h2>Logo</h2>
+           
+                <button class="uniqe"><h4>Download Resume</h4></button>
             </div>
         </nav>
+       <center><div>
+        <img src="https://nilaw2017.github.io/NewPortfolio-2022/assets/images/myAvatar.png" alt="profile">
+
+        </div></center>
         <div>
-        </Center><img src="https://nilaw2017.github.io/NewPortfolio-2022/assets/images/myAvatar.png" alt="profile">
+        <div><center><h1 class="pinnacle">Deepesh Thapa</h1></center></div>
         </div>
+        <div><center><h2>I'm <span class="samata">a Students</span></h2></center></div>
         <div>
-        <div><h1 class="pinnacle">Deepesh thapa</h1></div>
-        </div>
-        <div><h2>I'a<span class="samata">students</span></h2></div>
-        <div>
-            <ul>
+            <ul style="display: grid; grid-template-columns: auto auto auto auto;">
                 <div><li>Facebook</li></div>
                 <div><li>tiweter</li></div>
                 <div><li>Instgram</li></div>
@@ -57,7 +64,8 @@
             </ul>
         </div>
         <div>
-            <button class="milestone">Contact me</button>
+           <center><button class="milestone"><h4>Contact me</h4></button></center>
         </div>
+     </div>
     </body>
 </html>
