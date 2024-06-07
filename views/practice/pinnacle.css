@@ -1,3 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Lagankhel{
     color: azure;
+    line-height: 25.2px;
+    font-style: italic;
+    word-spacing: 0px;
+   
+}
+.about{
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25.5px;
+    word-spacing: 0PX;
+    text-align: left;
+}
+.Result{
+    color: white;
+    line-height: 15.5px;
+    font-style: italic;
+    word-spacing: 0px;
+    text-align: left;
+}
+.contact{
+    color: white;
+    line-height: 25.5px;
+    font-style: italic;
+    word-spacing: 0px;
+    text-align: left;
+}
+
+li {
+    border-bottom: 1px dashed white
 }
