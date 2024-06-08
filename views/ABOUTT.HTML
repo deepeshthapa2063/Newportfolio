@@ -1,63 +1,123 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+             .roll{
+                border-bottom: 1px dashed red;
+                width:120px;
+                line-height:35px;
+                list-style: none;
+                word-spacing: 0px;
+                text-align: right;
+                text-align:justify;
+                color:white;
+            }
+            .collage{
+                list-style:none;
+                color: white;
+                line-height: 30px;
+                text-align: left;
+                font-size:small;
+                word-spacing:0px;
+
+            }
+            .page{
+                border-bottom:1px dashed black;
+                height: 50;
+                width: 120px;
+                list-style: none;
+                align-items: center;
+                line-height: 30px;
+                text-align: justify;
+                color: white;
+                font-style: italic;
+            }
+            input{
+                height: 25px;
+                width:250px;
+                color:black;
+                display: block;
+                
+            }
+            textarea{
+                height: 90px;
+                width: 200px;
+                color:black;
+                display: block;
+            
+            }
+            button{
+                height: 35px;
+                width: 220px;
+                color:white;
+                background-color:#F28D2C;
+            }
+            
+
+        </style>
+        <link ref="stylesheet" href="./about.css">
         <body>
-            <div style="border: 1px solid red;padding:5px;">
+            <div style="border: 1px solid red;padding:5px; background-color: #007833; border-style:none; height: 440px;"width:100px;>
 
-                <div style="border:1px solid blue;padding:5px;">
+                <div style="border:1px solid blue;padding:5px; border-style: none;">
                     
-                    <div style="border:1px solid black;">
+                    <div style="border:1px solid black; border-style:none;">
 
-                        <div style="border:1px solid rgb(0, 0, 0);display: grid; grid-template-columns: auto auto auto auto auto;">
-                            <div style="border:1px solid blue;padding:5px;">
-                                <ul>
+                        <div style="border:1px solid rgb(0, 0, 0);display: grid; grid-template-columns: auto auto auto auto auto;border-style:none;">
+                            <div style="border:1px solid blue;padding:5px; border-style:none;">
+                                <ul class="collage">
                                  <img src="https://pinnacleacademy.edu.np/public/assets/img/logo_footer.png" alt="Logo" height="90px" width="90px">
-                                    <li>Lagankhel,lalitapur</li>
-                                    <li>01-5544023,01-5544024,01-5540802</li>
-                                    <li>E-mail: into@pinnacle.edu.ne</li>
+                                    <li><i class="fa-solid fa-location-dot"></i>Lagankhel,lalitapur</li>
+                                    <li><i class="fa-solid fa-phone"></i>01-5544023,01-5544024,01-5540802</li>
+                                    <li><i class="fa-solid fa-envelope"></i>into@pinnacle.edu.ne</li>
                                     <li>follow us on:
                                         <br>
-                                        Facebook
+                                        <i class="fa-brands fa-facebook"></i>
                                     </li>
                                 </ul>
                          </div>
-                         <div style="border: 1px solid royalblue; padding: 5px;">
-                            <div>
+                         <div style="border: 1px solid royalblue; padding: 5px;border-style:none;">
+                            <div class="about">
                              <ul>
-                              <h4>Quick link</h4>
-                              <li>About</li>
-                              <li>Notice</li>
-                              <li>news</li>
-                              <li>Dowloads</li>
-                              <li>Resources</li>
-                              <li>Gallay</li>
+                              <h4 style="color: white;">Quick link</h4>
+                              <li class="roll">About</li>
+                              <li class="roll">Notice</li>
+                              <li class="roll">news</li>
+                              <li class="roll">Dowloads</li>
+                              <li class="roll">Resources</li>
+                              <li class="roll">Gallay</li>
                              </ul>
                             </div>   
                          </div>
-                         <div style="border: 1px solid rgb(38, 124, 209); padding: 5px;" >
-                            <div>
-                             <ul class="Result">
-                                <h4 style="height: 1px;">Lastest news</h4>
-                                <li>!!ACHIEVEMENT!!
+                         <div style="border: 1px solid rgb(38, 124, 209); padding: 5px;border-style:none;" >
+                            <div class="result">
+                             <ul>
+                                <h4 style="height: 1px; color: white;">Lastest news</h4>
+                                <li class="page">!!ACHIEVEMENT!!
                                     <h6 style="height: 1.5px; color: orangered;">Dec 23,2024</h6>
                                 </li>
-                                <li>Result
+                                <li class="page">Result
                                     <h6 style=" height:1.5px; color: orangered;">Dec 24,2024</h6>
                                 </li>
-                                <li>Notice
-                                    <h6 style=" height:1.5px; color: orangered;">Dec 25, 2024</h6>
+                                <li class="page">Notice
+                                    <h6 style=" height:1.5px; color: orangered;">Dec 25,2024</h6>
                                 </li>
                              </ul>
                             </div>
-                        </div style="border: 1px solid red; padding: 5px; width:900;">
-                        <div class="contact">
-                                <h4>Contact form</h4>
+                        </div style="border: 1px solid red; padding: 5px; width:900;border-style:none;">
+                        <div class="textarea">
+                                <h4 style="color: white; height: 10px;">Contact form</h4>
                                  <input type="text"
                                  placeholder="Full Name">
                                    <br>
                                  <input type="email"
                                  placeholder="E-mail">
                                    <br>
+                                   <input type="Tittle"
+                                   placeholder="Tittle">
+                                     <br>
                                  <textarea id="text" cols="20" rows="7">
                                     Message here
                                  </textarea>
@@ -72,7 +132,11 @@
                     </div>
 
                 </div>
+                <div style="border: 1px solid black;height:60px;color: white;background-color: #005D27; border-style:none;">
 
+                    <h6 style="font-size: medium; align-items:baseline;text-align: center;">Coptright @2024 | All Right Reserved</h6>
+  
+              </div> 
             </div>
         </body>
     </head>
