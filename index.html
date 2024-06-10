@@ -31,6 +31,31 @@
                 text-decoration: none;
                 color: black;
              }
+             li{
+                position: relative;
+             }
+             li::before{
+                content:"";
+                position:absolute;
+                top:60px;
+                left:-20px;
+                width: 100px;
+                height: 1px;
+                background-color: blue;
+                
+             }
+             .logos{
+                position:relative;
+             }
+             .logos::after{
+                content: "";
+                position: absolute;
+                top:50px;
+                left:-10px;
+                width: 100px;
+                height:1px;
+                background-color: #FF4C60;
+             }
         </style>
     </head>
     <body>
@@ -53,24 +78,24 @@
                 </li>
             </ul>
             <div style="display:grid; grid-template-columns: auto auto;">
-               <h2>Logo</h2>
+               <h2 class="logos">Logo</h2>
             </div>
             <div>
                 <button class="uniqe"><h4>Download Resume</h4></button>
             </div>
         </nav>
     <!--No change in above code-->
-    <center><div style="border:1px solid lavender; width: 800px; background-color:#EBEBEB;">
+    <div style="border:1px solid lavender; width: 800px; background-color:#EBEBEB;">
 
-       <center><div>
+       <div>
             <img src="https://nilaw2017.github.io/NewPortfolio-2022/assets/images/myAvatar.png" alt="profile">
 
         </div></center>
 
         <div>
-            <div><center><h1 class="pinnacle">Deepesh Thapa</h1></center></div>
+            <div><h1 class="pinnacle">Deepesh Thapa</h1></center></div>
         </div>
-            <div><center><h2>I'm <span class="samata">a Students</span></h2></center></div>
+            <div><h2>I'm <span class="samata">a Students</span></h2></center></div>
         <div>
             <ul style="display: grid; grid-template-columns: auto auto auto auto;">
                 <div><li><i class="fa-brands fa-facebook"></i></i></i></i></li></div>
@@ -80,13 +105,13 @@
             </ul>
         </div>
         <div>
-           <center><button class="milestone"><h4>Contact me</h4></button></center>
+           <button class="milestone"><h4>Contact me</h4></button></center>
         </div>
         
       <!--below code is about me-->
       <div style="border:1px solid rgb(250, 246, 246); padding:5px; background-color:lavenderblush;">
         <div style="border: 1px solid black; padding: 5px;">
-          <center><h1 class="about">About Me</h1></center>
+          <h1 class="about">About Me</h1></center>
         </div>
         <div style="border: 1px solid black; padding: 5px;display:grid; grid-template-columns:auto auto;">
             <div style="border: 1px solid; padding: 5px;">
@@ -124,7 +149,7 @@
      <div style="border:1px solid black; padding:5px;">
                 
         <div style="border:1px solid black; padding: 5px;">
-            <center><H1 Class="resume">RESUME</H1></center>
+            <H1 Class="resume">RESUME</H1></center>
         </div>
         <div style="border:1px solid black; padding:5px;border: 1px solid black; display:grid;grid-template-columns: auto auto;">
             <div>
@@ -180,7 +205,7 @@
      <!--Below code Contact-->
      <div style="border: 1px solid black;">
         <div style="border: 1px solid black;color: #454360;">
-            <center><h1>Contact Me</h1></center>
+            <h1>Contact Me</h1></center>
         </div>
         <div style="border: 1px solid black;display: grid; grid-template-columns: auto auto; height: 300px; align-items: center;">
             <div  style="border: 1px solid black;color: #454360;">
