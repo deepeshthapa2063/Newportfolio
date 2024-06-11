@@ -2,82 +2,28 @@
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Download Resume</title>
-        <style>
-            .uniqe{background-color:yellow;
-                border: none;
-                border-radius:25px;
-                height: 50px;
-                width: 150px;
-               
-             }
-             .pinnacle{
-                color: rgb(106, 42, 165);
-             }
-             .samata{
-                color: brown;
-             }
-             .milestone{
-                background-color:#FF4C60;
-                border:none;
-                border-radius: 50px;
-                height: 50px;
-                width: 150px;
-                color:#F8F9E1;
-             }
-             ul{
-                list-style: none;   
-             }
-             a{
-                text-decoration: none;
-                color: black;
-             }
-             li{
-                position: relative;
-             }
-             li::before{
-                content:"";
-                position:absolute;
-                top:60px;
-                left:-20px;
-                width: 100px;
-                height: 1px;
-                background-color: blue;
-                
-             }
-             .logos{
-                position:relative;
-             }
-             .logos::after{
-                content: "";
-                position: absolute;
-                top:50px;
-                left:-10px;
-                width: 100px;
-                height:1px;
-                background-color: #FF4C60;
-             }
-        </style>
+        <link rel="stylesheet" href="./index.css" class="css">
     </head>
     <body>
-     <div style="background-color:#D5F5F2;">
+     <div class="B1">
         
-        <nav style="display: grid; grid-template-columns: auto auto auto  ; justify-content: space-between;">
+        <nav class="Nav1">
 
-            <ul style="display: grid; grid-template-columns: auto auto auto auto; gap: 50px;">
-                <li>
-                    <a href="#">home</a>
+            <ul class="ul1">
+                <li class="top">
+                    <a href="#">HOME</a>
                 </li>
-                <li>
-                    <a href="/views/about.html">about me</a>
+                <li class=top>
+                    <a href="/views/about.html">ABOUT ME</a>
                 </li>
-                <li>
-                    <a href="/views/resume.html">Resume</a>
+                <li class="top">
+                    <a href="/views/resume.html">RESUME</a>
                 </li>
-                <li>
-                    <a href="./views/contact.html">Contact</a>
+                <li class="top">
+                    <a href="./views/contact.html">CONTACT</a>
                 </li>
             </ul>
-            <div style="display:grid; grid-template-columns: auto auto;">
+            <div class="logostyle">
                <h2 class="logos">Logo</h2>
             </div>
             <div>
@@ -85,38 +31,39 @@
             </div>
         </nav>
     <!--No change in above code-->
-    <div style="border:1px solid lavender; width: 800px; background-color:#EBEBEB;">
+    <div class="profil-1">
 
-       <div>
+       <div class="pinnacle">
             <img src="https://nilaw2017.github.io/NewPortfolio-2022/assets/images/myAvatar.png" alt="profile">
 
-        </div></center>
+        </div>
 
         <div>
-            <div><h1 class="pinnacle">Deepesh Thapa</h1></center></div>
+            <div><h1 class="pinnacle">Deepesh Thapa</h1></div>
         </div>
-            <div><h2>I'm <span class="samata">a Students</span></h2></center></div>
+            <div class="pinnacle"><h2>I'm <span class="samata">a Students</span></h2></div>
         <div>
-            <ul style="display: grid; grid-template-columns: auto auto auto auto;">
+            <ul class="list">
                 <div><li><i class="fa-brands fa-facebook"></i></i></i></i></li></div>
                 <div><li><i class="fa-brands fa-twitter"></i></li></div>
                 <div><li><i class="fa-brands fa-square-instagram"></i></li></div>
                 <div><li><i class="fa-brands fa-linkedin"></i></li></div>
             </ul>
         </div>
-        <div>
-           <button class="milestone"><h4>Contact me</h4></button></center>
+        <div class="con-1">
+           <button class="con-2" style="box-shadow: 9px 0px 5px black;margin: 50px 10px 20px 30px;"><h4>Contact me</h4></button>
         </div>
         
       <!--below code is about me-->
-      <div style="border:1px solid rgb(250, 246, 246); padding:5px; background-color:lavenderblush;">
-        <div style="border: 1px solid black; padding: 5px;">
-          <h1 class="about">About Me</h1></center>
+      <div class="abo-1">
+        <div class="abo-2"
+           <h1></h1>
+           <h1 class="about">ABOUT <span  style="color:#FF4C60;">ME</span></h1>
         </div>
-        <div style="border: 1px solid black; padding: 5px;display:grid; grid-template-columns:auto auto;">
-            <div style="border: 1px solid; padding: 5px;">
-                <h1 class="pesonal">PERSONAL INFO</h1>
-                <div style="border: 1px solid black; padding: 5px; display:grid; grid-template-columns:auto auto;">
+        <div class="abo-3">
+            <div class="abo-4">
+                <h1 style="color: #454360;">PERSONAL INFO</h1>
+                <div class="abo-5">
                     <div >
                         <h3 class="full"> Full Name:<span class="name">Deepesh Thapa</span></h3>
                 </div>
@@ -134,24 +81,26 @@
                 </div>
                 <div>
                         <h3 class="hindi">Language:<span class="english">Nepali,English,hindi</span></h3>
-                    
+                </div>
+                <div>
                 </div>
 
                 </div>
             </div>
             <div style="border:1px solid black; padding: 5px; ">
-                <h1>Achivenment</h1>
+                <h1 style="color: #454360;">Achivenment</h1>
+                
             </div>
-
         </div>
+        <button class="better">Download Resume</button>
      </div>
      <!--Below code is resume-->
-     <div style="border:1px solid black; padding:5px;">
+     <div class="Bres-1">
                 
-        <div style="border:1px solid black; padding: 5px;">
-            <H1 Class="resume">RESUME</H1></center>
+        <div class="Bres-2">
+            <H1 Class="h1res">RESUME</H1>
         </div>
-        <div style="border:1px solid black; padding:5px;border: 1px solid black; display:grid;grid-template-columns: auto auto;">
+        <div class="resborder">
             <div>
                 <h2 class="education"> EDUCATION</h2>
                 <ul>
@@ -172,9 +121,9 @@
                             Management(Computer Science) 
                        </p>
                        <li class="date">2082-Present</li>
-
+                            <p>Improve myself</p>
             </div>
-            <div style="border:1px solid black;">
+            <div class="expborder">
                 <h2 class="experience">EXPERIENCE</h2>
             <Ul>
                 <li class="date">2081</li>
@@ -203,15 +152,15 @@
 
      </div>
      <!--Below code Contact-->
-     <div style="border: 1px solid black;">
-        <div style="border: 1px solid black;color: #454360;">
-            <h1>Contact Me</h1></center>
+     <div class="con-1-B">
+        <div class="con-2-B">
+            <h1>CONTACT</h1>
         </div>
-        <div style="border: 1px solid black;display: grid; grid-template-columns: auto auto; height: 300px; align-items: center;">
-            <div  style="border: 1px solid black;color: #454360;">
+        <div class="con-3-B">
+            <div  style="color: #454360; ">
                 <h2>GET IN TOUCH</h2>
                 <h3>
-           <UL style="font-style:none;">
+           <UL style="font-size: 20px;line-height:3;">
                <b>
               <li><i class="fa-solid fa-location-dot"></i> Lagankhel,Kathmandu</li>
                <li><i class="fa-solid fa-envelope"></i> deepeshthapa002@gmail.com</li>
@@ -232,7 +181,7 @@
                     Message here
                 </TEXTAREA>
             <Br>
-                <button>send Message</button>
+                <button class="send">SEND Message</button>
             </div>
         </div>
 
