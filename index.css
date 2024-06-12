@@ -1,13 +1,15 @@
 /* Hellow world */
 .uniqe{
-   background-color:yellow;
+   background-color:#366f79;
     border: none;
     border-radius:25px;
     height: 50px;
     width: 150px;
+    font-size: 14px;
+    align-content: left;
 
-   
  }
+
  .pinnacle{
     color: rgb(106, 42, 165);
     margin: auto;
@@ -26,17 +28,24 @@
     color: black;
  }
  .top{
-    position: relative;
+   border: 1px solid black;
+   width: 100;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 18px;
+   margin: auto;
+   font-style: normal;
+   background: #fff;
  }
- .top::before{
-    content:"";
-    position:absolute;
-    top:20px;
-    left:-1px;
-    width: 50px;
-    height: 3px;
-    background-color: #FFFF00;
+ .top:hover{
+   background-color:#FF4C60;
  }
+ .logos{
+   border: 2px solid blueviolet;
+   border-radius: 15px;
+   background-color: #fff;
+ }
+ 
  .logos{
     position:relative;
  }
@@ -204,7 +213,9 @@ color: royalblue;
          color: #454360;
    }
    .resborder{
+      border: 1px solid rgb(219, 208, 208); 
       padding: 5px;
+      width: 905px;
       display: grid;
       grid-template-columns: auto auto;
       font-size: 16px;
@@ -220,13 +231,26 @@ color: royalblue;
     font-size: 30px;
 }
 .experience{
-    color:#454360 ;
+    color:#454360;
+    font-size:30px;
+    line-height: ;
 }
 .date{
-    color: red;
+    color:#FF3C43;
+    text-shadow: 5px 5px 6px black;
+    font-size: 20px;
 }
 .hello{
     color:#1f14b9d0;
+    font-size: 20px;
+    line-height: 2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.helloo{
+   color:#1f14b9d0;
+   font-size: 20px;
+   line-height: 3;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p{
     color:#454360 ;
@@ -278,3 +302,7 @@ p{
       height: 40;
    
    }
+.EPE{
+   font-size:20px;
+   width: 400;
+}
