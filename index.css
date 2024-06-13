@@ -1,308 +1,302 @@
 /* Hellow world */
-.uniqe{
-   background-color:#366f79;
-    border: none;
-    border-radius:25px;
-    height: 50px;
-    width: 150px;
-    font-size: 14px;
-    align-content: left;
-
- }
-
- .pinnacle{
-    color: rgb(106, 42, 165);
-    margin: auto;
-    text-align: center;
- }
- .samata{
-    color: brown;
-    margin: auto;
-    text-align: center;
- }
- ul{
-    list-style: none;   
- }
- a{
-    text-decoration: none;
-    color: black;
- }
- .top{
-   border: 1px solid black;
-   width: 100;
-   border-radius: 10px;
-   text-align: center;
-   font-size: 18px;
-   margin: auto;
-   font-style: normal;
-   background: #fff;
- }
- .top:hover{
-   background-color:#FF4C60;
- }
- .logos{
-   border: 2px solid blueviolet;
-   border-radius: 15px;
-   background-color: #fff;
- }
- 
- .logos{
-    position:relative;
- }
- .logos::after{
-    content: "";
-    position: absolute;
-    top:30px;
-    left:-10px;
-    width: 55px;
-    height:3px;
-    background-color: #FF4C60;
- }
- button{
-    background-color: #FF4C60;
-    color: white;
-    height: 20px;
- } 
- textarea{
-    margin-top:10px;
- }
- 
-
-
- /*Below css is,...first boarder of body*/
- .top{
-   color:#454360;
- }
- .B1{
-   background-color:#EBEBEB
- }
- .Nav1{
-   display:grid;
-   grid-template-columns: auto auto auto;
-   justify-content:space-between;
-   position: sticky;
-   top:0;
-   font-style: italic;
-   font: 500;
- }
- /*below code is ul and css*/
- .ul1{
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-   gap:50px;
- } 
- .logostyle{
-   display: grid;
-   grid-template-columns: auto auto;
- }
- /* below css is profile*/
- .profil-1{
-   border: 1px solid lavender;
-   width: 800px;
-   background-color: #EBEBEB;
-   margin:auto;
- }
- /*below css is listing*/
- .list{
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-   margin:auto;
- }
- /*below css is contact button*/
- .con-1{
-   text-align: center;
- }
- .con-2{
-      margin: 50px 10px 20px 30px;
-      background-color:#FF4C60;
-      border:none;
-      border-radius: 50px;
-      height: 50px;
-      width: 150px;
-      color:#F8F9E1;
-      margin: auto;
-      text-align: center;
-      align-items: center;
-
-   }
-   /*below css is about me*/
-   .abo-1{
-      margin: 50px 10px 20px 30px;
-      background-color: lavender; 
-   }
- .about{
-   text-align: center;
-   font-size: 40px;
-   text-shadow: 4px 4px 5px black ;
-   color:#454360;
- }
- .abo-3{
-   padding: 5px;
-   display: grid;
-   grid-template-columns: auto auto auto;
- }
- .abo-4{
-   border: 1px solid rgb(173, 160, 160);
-   padding: 5px;
- }
- .abo-5{
-   padding: 5px;
-   display: grid;
-   grid-template-columns: auto auto;
- }
- .me{
-   color: #FF4C60;
-}
-.about{
-   color:#454360;
-   border: none;
-   font-size: 55px;
-}
-.pesonal{
-   color:#241f69;
-}
-.name{
-   color: royalblue;
-}
-.full{
-   color: #34314d;
-}
-.ages{
-   color:  #0a0a0c;
-}
-.age{
-   color:royalblue ;
-}
-.nation{
-   color: royalblue ;
-}
-.nepal{
-   color: #07070c;
-}
-.ghar{
-   color: royalblue;
-}
-.No{
-   color:  #08080c;
-}
-.phone{
-color: royalblue;
-}
-.hindi{
-   color: royalblue;
-}
-.english{
-   color: #0e0d13;
-}
-.last{
-   color:royalblue;
+.uniqe {
+  background-color: #366f79;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 150px;
+  font-size: 14px;
+  align-content: left;
 }
 
-   /*below css is resume*/
-   .Bres-1{
-      border: 1px black;
-      margin: 50px 10px 20px 30px;
-      padding: 5px;
-   }
-   .Bres-2{
-    text-shadow: 4px 4px 5px black;
-   }
-   .h1res{
-         text-align:center;
-         font-size: 55px;
-         color: #454360;
-   }
-   .resborder{
-      border: 1px solid rgb(219, 208, 208); 
-      padding: 5px;
-      width: 905px;
-      display: grid;
-      grid-template-columns: auto auto;
-      font-size: 16px;
-   }
-   .expborder{
-      border: 1px solid rgb(187, 174, 174);
-   
-   }
-
-
-.education{
-    color:#454360;
-    font-size: 30px;
+.pinnacle {
+  color: rgb(106, 42, 165);
+  margin: auto;
+  text-align: center;
 }
-.experience{
-    color:#454360;
-    font-size:30px;
-    line-height: ;
+.samata {
+  color: brown;
+  margin: auto;
+  text-align: center;
 }
-.date{
-    color:#FF3C43;
-    text-shadow: 5px 5px 6px black;
-    font-size: 20px;
+ul {
+  list-style: none;
 }
-.hello{
-    color:#1f14b9d0;
-    font-size: 20px;
-    line-height: 2;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+a {
+  text-decoration: none;
+  color: black;
 }
-.helloo{
-   color:#1f14b9d0;
-   font-size: 20px;
-   line-height: 3;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+.top {
+  border: 1px solid black;
+  width: 100;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  font-style: normal;
+  background: #fff;
 }
-p{
-    color:#454360 ;
+.top:hover {
+  background-color: #ff4c60;
+}
+.logos {
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
-   /*below css is contact*/
-   .con-1-B{
-      margin: 50px 10px 20px 30px;
-   }
-   .con-2-B{
-      text-shadow: 4px 4px 5px black;
-      color: #454360;
-      text-align: center;
-      font-size: 25px;
-   }
-   .con-3-B{
-      border: 1px solid rgb(184, 184, 184);
-      display: grid;
-      grid-template-columns: auto auto;
-      height: 400px;
-      align-items: center;
-   }
-   input{
-      margin-top: 20px;
-      width: 300px;
-      height: 30px;
-   }
-   button{
-      width: 150px;
-      height: 30px;
-      text-align: center;
-      align-items: center;
-      box-shadow: 5px 0px 5px black ;
-      border-radius: 10px;
-   }
-   textarea{
-      height: 90px;
-   }
-   .better{
-      width: 250px;
-      height: 50;
-      color: #07070c;
-      background-color: wheat;
-      font-size: 16px;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
-   .send{
-      width: 200;
-      height: 40;
-   
-   }
-.EPE{
-   font-size:20px;
-   width: 400;
+.logos {
+  position: relative;
+}
+.logos::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  width: 55px;
+  height: 3px;
+  background-color: #ff4c60;
+}
+button {
+  background-color: #ff4c60;
+  color: white;
+  height: 20px;
+}
+textarea {
+  margin-top: 10px;
+}
+
+/*Below css is,...first boarder of body*/
+.top {
+  color: #454360;
+}
+.B1 {
+  background-color: #ebebeb;
+}
+.Nav1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  font-style: italic;
+  font: 500;
+}
+/*below code is ul and css*/
+.ul1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+}
+.logostyle {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* below css is profile*/
+.profil-1 {
+  border: 1px solid lavender;
+  width: 800px;
+  background-color: #ebebeb;
+  margin: auto;
+}
+/*below css is listing*/
+.list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+}
+/*below css is contact button*/
+.con-1 {
+  text-align: center;
+}
+.con-2 {
+  margin: 50px 10px 20px 30px;
+  background-color: #ff4c60;
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  color: #f8f9e1;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+/*below css is about me*/
+.abo-1 {
+  margin: 50px 10px 20px 30px;
+  background-color: lavender;
+}
+.about {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 4px 4px 5px black;
+  color: #454360;
+}
+.abo-3 {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.abo-4 {
+  border: 1px solid rgb(173, 160, 160);
+  padding: 5px;
+}
+.abo-5 {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.me {
+  color: #ff4c60;
+}
+.about {
+  color: #454360;
+  border: none;
+  font-size: 55px;
+}
+.pesonal {
+  color: #241f69;
+}
+.name {
+  color: royalblue;
+}
+.full {
+  color: #34314d;
+}
+.ages {
+  color: #0a0a0c;
+}
+.age {
+  color: royalblue;
+}
+.nation {
+  color: royalblue;
+}
+.nepal {
+  color: #07070c;
+}
+.ghar {
+  color: royalblue;
+}
+.No {
+  color: #08080c;
+}
+.phone {
+  color: royalblue;
+}
+.hindi {
+  color: royalblue;
+}
+.english {
+  color: #0e0d13;
+}
+.last {
+  color: royalblue;
+}
+
+/*below css is resume*/
+.Bres-1 {
+  border: 1px black;
+  margin: 50px 10px 20px 30px;
+  padding: 5px;
+}
+.Bres-2 {
+  text-shadow: 4px 4px 5px black;
+}
+.h1res {
+  text-align: center;
+  font-size: 55px;
+  color: #454360;
+}
+.resborder {
+  border: 1px solid rgb(219, 208, 208);
+  padding: 5px;
+  width: 905px;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+}
+.expborder {
+  border: 1px solid rgb(187, 174, 174);
+}
+
+.education {
+  color: #454360;
+  font-size: 30px;
+}
+.experience {
+  color: #454360;
+  font-size: 30px;
+  line-height: ;
+}
+.date {
+  color: #ff3c43;
+  text-shadow: 5px 5px 6px black;
+  font-size: 20px;
+}
+.hello {
+  color: #1f14b9d0;
+  font-size: 20px;
+  line-height: 2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.helloo {
+  color: #1f14b9d0;
+  font-size: 20px;
+  line-height: 3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  color: #454360;
+}
+
+/*below css is contact*/
+.con-1-B {
+  margin: 50px 10px 20px 30px;
+}
+.con-2-B {
+  text-shadow: 4px 4px 5px black;
+  color: #454360;
+  text-align: center;
+  font-size: 25px;
+}
+.con-3-B {
+  border: 1px solid rgb(184, 184, 184);
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 400px;
+  align-items: center;
+}
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 5px 0px 5px black;
+  border-radius: 10px;
+}
+textarea {
+  height: 35%;
+}
+.better {
+  width: 250px;
+  height: 50;
+  color: #07070c;
+  background-color: wheat;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.send {
+  height: 10%;
+  font-size: 16px;
+}
+
+.EPE {
+  font-size: 20px;
+  width: 400;
 }
