@@ -1,0 +1,59 @@
+.fist-borde {
+  border: 1px solid black;
+  box-shadow: 5px 4px 5px 4px burlywood;
+  border-style: none;
+  padding: 3px 3px 4px;
+  background-color: #e6e6fa;
+  margin: 2%;
+}
+.second-borde {
+  border: 1px salmon;
+}
+.third-border {
+  border: 1px solid blueviolet;
+  border-style: none;
+  padding: 4px 4px 5px 3px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.resume {
+  text-align: center;
+  font-size: 40px;
+  color: #241f69;
+  text-shadow: 6px 6px 6px grey;
+}
+.education {
+  font-size: 35px;
+  margin-left: 5%;
+  color: #353358;
+  text-shadow: 4px 4px 5px gray;
+}
+.experience {
+  font-size: 35px;
+  margin-left: 5%;
+  text-shadow: 3px 3px 4px;
+  color: #353358;
+}
+.mence {
+  border: 1px solid silver;
+}
+.edu-border {
+  border: 1px solid silver;
+}
+.date {
+  list-style: none;
+  font-size: 20px;
+  color: brown;
+}
+.hello {
+  color: #353358;
+  font-size: 20px;
+  text-shadow: 4px 4px 5px gray;
+}
+p {
+  font-size: 20px;
+  display: flex;
+  margin-right: 20%;
+  text-align: justify;
+  color: #353358;
+}

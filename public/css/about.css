@@ -1,0 +1,96 @@
+.me {
+  color: #ff4c60;
+}
+.second-bor {
+  border: 1px solid black;
+  border: none;
+  padding: 5px 3px 5px 3px;
+  display: grid;
+  height: 65%;
+  grid-template-columns: auto auto;
+}
+.about {
+  color: #241f69;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 3px 3px 4px wheat;
+}
+.border-bar {
+  border: 1px solid rgb(202, 198, 198);
+  padding: 5px 3px 5px 3px;
+  height: 60%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.pesonal {
+  color: #241f69;
+  font-size: 30px;
+  margin-left: 10%;
+}
+.name {
+  color: royalblue;
+}
+.full {
+  color: #34314d;
+}
+.ages {
+  color: #0a0a0c;
+}
+.age {
+  color: royalblue;
+}
+.nation {
+  color: royalblue;
+}
+.nepal {
+  color: #07070c;
+}
+.ghar {
+  color: royalblue;
+}
+.No {
+  color: #08080c;
+}
+.phone {
+  color: royalblue;
+}
+.hindi {
+  color: royalblue;
+}
+.english {
+  color: #0e0d13;
+}
+.last {
+  color: royalblue;
+}
+.deepesh {
+  color: royalblue;
+}
+.color {
+  background-color: #f9f9ff;
+  color: black;
+}
+.thapa {
+  color: royalblue;
+}
+/*down code is being border of page*/
+.D1 {
+  padding: 5px;
+  border: none;
+  background-color: #e6e6fa;
+  margin: 3%;
+}
+.achivement {
+  border: 1px solid rgb(202, 198, 198);
+  height: 70%;
+  margin: 13%;
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ment {
+  text-align: center;
+  margin: 2%;
+  color: #241f69;
+}
